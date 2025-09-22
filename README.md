@@ -27,11 +27,11 @@ Mob ESP Mod is a client-side mod for Minecraft that highlights mobs (monsters, a
 
 ## Installation
 
-1. Make sure you have a compatible **mod loader** installed (e.g. Fabric or Forge) for your Minecraft version.  
+1. Make sure you have a compatible **mod loader** installed (e.g. Fabric) for your Minecraft version.  
 2. Download the `.jar` file of Mob ESP Mod.  
 3. Move the `.jar` into your mods folder (e.g. `mods/` in your Minecraft installation directory).  
 4. Launch Minecraft with the mod loader profile.  
-5. In-game, press the configured key to open mod settings (default: `M` or `/mobesp`). Adjust settings as desired.
+5. In-game, press the configured key to open mod settings (default: `M`). Adjust settings as desired.
 
 ---
 
