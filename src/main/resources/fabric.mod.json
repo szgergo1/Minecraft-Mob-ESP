@@ -1,41 +1,41 @@
 {
 	"schemaVersion": 1,
-	"id": "modid",
+	"id": "mobesp",
 	"version": "${version}",
-	"name": "Example mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "Mob ESP",
+	"description": "Advanced mob highlighting mod with customizable colors, search functionality, and performance optimizations. See any mob through walls!",
 	"authors": [
-		"Me!"
+		"Ede99"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/Ede99/Minecraft-Mob-ESP",
+		"sources": "https://github.com/Ede99/Minecraft-Mob-ESP"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/modid/icon.png",
+	"icon": "assets/mobesp/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.example.ExampleMod"
+			"com.ede99.mobhighlighter.MobESPMod"
 		],
 		"client": [
-			"com.example.ExampleModClient"
+			"com.ede99.mobhighlighter.MobESPModClient"
 		]
 	},
 	"mixins": [
-		"modid.mixins.json",
+		"mobesp.mixins.json",
 		{
-			"config": "modid.client.mixins.json",
+			"config": "mobesp.client.mixins.json",
 			"environment": "client"
 		}
 	],
 	"depends": {
 		"fabricloader": ">=0.16.14",
-		"minecraft": "~1.21.8",
-		"java": ">=21",
+		"minecraft": "~1.21.1",
+		"java": ">=17",
 		"fabric-api": "*"
 	},
 	"suggests": {
-		"another-mod": "*"
+		"modmenu": "*"
 	}
 }
